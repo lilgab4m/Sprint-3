@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #d3d3d3;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-links a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-images img {
+    width: 50px; /* Ajuste conforme necessário */
+    height: auto;
+    margin: 0 10px;
+}
