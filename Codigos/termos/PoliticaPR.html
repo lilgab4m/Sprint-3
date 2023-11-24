@@ -33,29 +33,40 @@
 
     .privacy-policy {
         max-width: 800px;
-        margin: 20px auto;
+        margin-right: 10px;
+        margin: 2px auto;
         padding: 20px;
-        background-color: #ffffff;
         text-align: center;
-        border-radius: 50%;
+        border-radius: 5%;
+        
     }
 
     .outer-rectangle {
-        border: 2px solid rgb(209, 239, 43); /* Borda branca ao redor do retângulo externo */
-        padding: 0px; /* Espaçamento interno */
+     
+        padding: 1px; /* Espaçamento interno */
         margin-bottom: 20px; /* Espaçamento inferior */
         border-radius: 20%;
+        border: 2px solid #000; /* Borda preta */
+    background-color: #ff0; /* Fundo amarelo */
+    max-width: 300px;
+
     }
 
     .inner-rectangle {
      
         padding: 1px; /* Espaçamento interno */
         background-color: #000000; /* Cor de fundo do retângulo interno */
+        max-width: 300px;
+        margin-left: 250px;
+        border-radius: 10%;
+        
+        
     }
 
     .privacy-policy h2 {
         color: #ffffff;
         margin-bottom: 10px; /* Espaçamento inferior para separar do retângulo interno */
+        
     }
 
     h3, p {
@@ -66,10 +77,10 @@
 </style>
 
     <div class="privacy-policy">
+        <div class="inner-rectangle">
+            <h2>Política de Privacidade</h2>
+        </div>
         <div class="outer-rectangle">
-            <div class="inner-rectangle">
-                <h2>Política de Privacidade</h2>
-            </div>
         </div>
 
         <h3>Coleta de Informações</h3>
