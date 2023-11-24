@@ -44,7 +44,7 @@ background: linear-gradient(140deg, rgba(0,0,0,1) 0%, rgba(54,37,9,1) 30%, rgba(
 }
 
 .login-container img {
-    width: 30px; /* ajuste conforme necessário */
+    width: 0px; /* ajuste conforme necessário */
     height: auto;
     margin-left: 5px;
 }
