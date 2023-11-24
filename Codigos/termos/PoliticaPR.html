@@ -26,40 +26,51 @@
 
 <style>
     body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
 
-.privacy-policy {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    align-items: center;
+    .privacy-policy {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #ffffff;
+        text-align: center;
+        border-radius: 50%;
+    }
 
-h2 {
-    color: #000000;
-}
+    .outer-rectangle {
+        border: 2px solid rgb(209, 239, 43); /* Borda branca ao redor do retângulo externo */
+        padding: 0px; /* Espaçamento interno */
+        margin-bottom: 20px; /* Espaçamento inferior */
+        border-radius: 20%;
+    }
 
-h3 {
-    color: #000000;
-}
+    .inner-rectangle {
+     
+        padding: 1px; /* Espaçamento interno */
+        background-color: #000000; /* Cor de fundo do retângulo interno */
+    }
 
-p {
-    color: #000000;
-    line-height: 1.6;
-}
+    .privacy-policy h2 {
+        color: #ffffff;
+        margin-bottom: 10px; /* Espaçamento inferior para separar do retângulo interno */
+    }
 
-/* Adicione mais estilos conforme necessário */
+    h3, p {
+        color: #000000;
+    }
 
+    /* Adicione mais estilos conforme necessário */
 </style>
 
     <div class="privacy-policy">
-        <h2>Política de Privacidade</h2>
-        <p>
-            Esta Política de Privacidade descreve como o site Bableb coleta, usa, armazena e protege as informações pessoais dos usuários. Ao utilizar nosso site, você concorda com a coleta e uso das informações de acordo com esta política.
-        </p>
+        <div class="outer-rectangle">
+            <div class="inner-rectangle">
+                <h2>Política de Privacidade</h2>
+            </div>
+        </div>
 
         <h3>Coleta de Informações</h3>
         <p>
@@ -83,10 +94,7 @@ p {
         </p>
     </div>
 
-
-
     <footer>
-        
         <div class="footer-images">
             <a href="link_da_primeira_imagem.html"><img src="C:\xampp\htdocs\Sprint-3\img\zap.png" alt="Imagem 1"></a>
             <a href="https://www.instagram.com/_bubleb_/"><img src="C:\xampp\htdocs\Sprint-3\img\insta.png" alt="Imagem 2"></a>
