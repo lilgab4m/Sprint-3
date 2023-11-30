@@ -7,6 +7,10 @@
         <link rel='stylesheet' type='text/css' media='screen' href='login.css'>
     </head>
     <body>
+        <div class="text">
+            <p class="title.login">Bem-vindo novamente</p>
+            <p class="title.register">Comece agora</p>
+        </div>
         <div class="wrapper">
                 <div class="form-box login">
                     <h2>Login</h2>

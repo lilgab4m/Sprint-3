@@ -35,6 +35,12 @@ body {
     z-index: 1;
 }
 
+.text {
+    position: absolute;
+    left: 0;
+
+}
+
 .wrapper.active {
     height: 760px;
 }
