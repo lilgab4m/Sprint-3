@@ -5,11 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Login</title>
         <link rel='stylesheet' type='text/css' media='screen' href='login.css'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     </head>
     <body>
         <div class="text">
-            <p class="title.login">Bem-vindo novamente</p>
-            <p class="title.register">Comece agora</p>
+            <p class="title login">Bem-vindo novamente</p>
+            <p class="title register">Comece agora</p>
+            <p class="title -forgot">Esqueceu a senha</p>
         </div>
         <div class="wrapper">
                 <div class="form-box login">
@@ -23,7 +25,7 @@
                             <input type="password" required>
                             <label>Senha</label>
                         </div>
-                        <div class="remember-forgot">
+                        <div class="remember">
                             <label><input type="checkbox"> Lembre de mim</label>
                         </div>
                         <div>
@@ -33,11 +35,14 @@
                         <div class="login-register">
                             <p>Não tem uma conta?<a href="#" class="register-link"> Cadastre-se</a></p>
                         </div>
+                        <div class="forgot-link">
+                            <p><a href="#" class="forgot-link">Esqueceu a senha</a></p>
+                        </div>
                     </form>
                 </div>
 
                 <div class="form-box register">
-                    <h2>Registre-se</h2>
+                    <h2>Cadastre-se</h2>
                     <form action="#">
                         <div class="input-box">
                             <input type="text" required>
@@ -59,12 +64,31 @@
                             <input type="password" required>
                             <label>Cofirmar Senha</label>
                         </div>
-                        <div class="remember-forgot">
+                        <div class="remember">
                             <label><input type="checkbox"> Concordo com os termos & condições</label>
                         </div>
                         <button type="submit" class="btn">Registre-se</button>
                         <div class="login-register">
                             <p>Já tem uma conta?<a href="#" class="login-link"> Login</a></p>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="form-box forgot">
+                <h2>Esqueceu a senha</h2>
+                <p> Siga as instruções para redefinir sua senha por e-mail ou telefone não esqueca de criar uma nova senha forte e memorize-a ou anote-a em um local seguro.</p>
+                    <form action="#">
+                        <div class="input-box">
+                            <input type="email" required>
+                            <label>E-mail</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="number" required>
+                            <label>Numero</label>
+                        </div>
+                        <button type="submit" class="btn">Enviar</button>
+                        <div class="back">
+                            <a href="#" class="back-link"><span class="material-symbols-outlined">chevron_left</span></a>
                         </div>
                     </form>
                 </div>

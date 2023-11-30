@@ -17,6 +17,63 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    overflow: hidden;
+}
+
+.text {
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    font-family: "Koulen";
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.text .title.login {
+    transition: transform .28s ease;
+    transform: translateX(0);
+}
+
+.text.active .title.login {
+    transition: none;
+    transform: translateX(-800px);
+}
+
+.text .title.register {
+    position: absolute;
+    transition: none;
+    transform: translateX(800px);
+}
+
+.text.active .title.register {
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+
+.text .title.register {
+    position: absolute;
+    transition: none;
+    transform: translateX(800px);
+}
+
+.text .title.-forgot {
+    position: absolute;
+    transition: none;
+    transform: translateX(0);
+    transform: translateY(80px);
+}
+
+.text.forgot .title.-forgot {
+    transition: transform .18s ease;
+    transform: translateY(0);
+}
+
+.text.forgot .title.login {
+    transition: none;
+    transform: translateY(-80px);
 }
 
 .wrapper {
@@ -35,14 +92,12 @@ body {
     z-index: 1;
 }
 
-.text {
-    position: absolute;
-    left: 0;
-
+.wrapper.active {
+    height: 850px;
 }
 
-.wrapper.active {
-    height: 760px;
+.wrapper .form-box.forgot {
+    position: absolute;
 }
 
 .wrapper .form-box {
@@ -53,6 +108,12 @@ body {
 .wrapper .form-box.login {
     transition: transform .28s ease;
     transform: translateX(0);
+}
+
+.wrapper .form-box.forgot {
+    transition: transform .28s ease;
+    transform: translateX(800px);
+    transform: translateY(1000px);
 }
 
 .wrapper.active .form-box.login {
@@ -71,12 +132,30 @@ body {
     transform: translateX(0);
 }
 
+.wrapper.forgot .form-box.forgot {
+    transition: transform .18s ease;
+    transform: translateY(0px);
+    
+}
+
+.wrapper.forgot .form-box.login {
+    transition: transform .18s ease;
+    transform: translateY(-1000px);
+}
+
 .form-box h2 {
     font-size: 2em;
     color: rgb(0, 0, 0);
     text-align: center;
     font-family: 'Koulen';
     font-size: 64px;
+}
+
+.form-box p {
+    text-align: center;
+    font-family: Dosis;
+    font-size: 27px;
+    font-weight: 400;
 }
 
 .input-box {
@@ -127,7 +206,7 @@ body {
     line-height: 57px;
 }
 
-.remember-forgot {
+.remember {
     font-family: Dosis;
     font-size: 24px;
     color: #777;
@@ -137,17 +216,17 @@ body {
     justify-content: space-between;
 }
 
-.remember-forgot label input {
+.remember label input {
     accent-color: #EFBE11;
     margin-right: 3px;
 }
 
-.remember-forgot a {
+.remember a {
     color: #43E8FF;
     text-decoration: none;
 }
 
-.remember-forgot a:hover {
+.remember a:hover {
     color: black;
     text-decoration: underline;
 }
@@ -184,13 +263,40 @@ body {
     font-weight: 600;
 }
 
+.forgot-link {
+    font-family: Dosis;
+    font-size: 24px;
+    color: #777;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+
+.forgot-link p a {
+    color: #43E8FF;
+    text-decoration: none;
+    font-weight: 600;
+}
+
 .login-register p a:hover {
     color: #EFBE11;
     text-decoration: underline;
 }
 
+.forgot-link a:hover {
+    color: #EFBE11;
+    text-decoration: underline;
+}
+
+.back span {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
 .balls {
-    width: 900;
+    width: 800;
 }
 
 .ball1, .ball2, .ball3, .ball4, .ball5, .ball6, .ball7, .ball8 {
