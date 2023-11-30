@@ -20,6 +20,11 @@ background: linear-gradient(140deg, rgba(0,0,0,1) 0%, rgba(54,37,9,1) 30%, rgba(
     height: auto;
     border-radius: 50%;
 }
+.logo-container1 img {
+    width: 51px; /* ajuste conforme necessário */
+    
+    
+margin-right: 650px;}
 
 .nav-links {
     list-style: none;
