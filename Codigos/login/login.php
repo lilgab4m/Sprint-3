@@ -13,6 +13,20 @@
             <p class="title register">Comece agora</p>
             <p class="title -forgot">Esqueceu a senha</p>
         </div>
+        <div class="lang">
+            <div>
+                <a href="#" class="port"><img src="img/Bandeiras/Brasil.png" alt=""></a>
+            </div>
+            <div>
+                <a href="#" class="usa"><img src="img/Bandeiras/Usa.png" alt=""></a>
+            </div>
+            <div>
+                <a href="#" class="jap"><img src="img/Bandeiras/Japao.png" alt=""></a>
+            </div>
+            <div>
+                <a href="#" class="esp"><img src="img/Bandeiras/Espanha.png" alt=""></a>
+            </div>
+        </div>
         <div class="wrapper">
                 <div class="form-box login">
                     <h2>Login</h2>
@@ -33,7 +47,7 @@
                         </div>
                         <button type="submit" class="btn">Login</button>
                         <div class="login-register">
-                            <p>Não tem uma conta?<a href="#" class="register-link"> Cadastre-se</a></p>
+                            <p>Não tem uma conta? <a href="#" class="register-link">Cadastre-se</a></p>
                         </div>
                         <div class="forgot-link">
                             <p><a href="#" class="forgot-link">Esqueceu a senha</a></p>
