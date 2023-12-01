@@ -51,5 +51,25 @@ max-width: 80px;
     max-width: 150px;
   
   }
+  .meu-botao {
+    margin-top: -20px;
+    margin-bottom: 60px;
+
+    
+    background-color: #000000; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Preenchimento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-left:  850px
+  }
+  
+  .meu-botao:hover {
+    background-color: rgb(56, 56, 56); /* Cor de fundo ao passar o mouse */
+  }
+  
     
   
