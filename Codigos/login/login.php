@@ -18,7 +18,7 @@
                 <a href="#" class="port"><img src="img/Bandeiras/Brasil.png" alt=""></a>
             </div>
             <div>
-                <a href="#" class="usa"><img src="img/Bandeiras/Usa.png" alt=""></a>
+                <a href="#" class="eng"><img src="img/Bandeiras/Usa.png" alt=""></a>
             </div>
             <div>
                 <a href="#" class="jap"><img src="img/Bandeiras/Japao.png" alt=""></a>
@@ -29,7 +29,7 @@
         </div>
         <div class="wrapper">
                 <div class="form-box login">
-                    <h2>Login</h2>
+                    <h2 id="login">Logar</h2>
                     <form action="#">
                         <div class="input-box">
                             <input type="email" required>
@@ -37,10 +37,10 @@
                         </div>
                         <div class="input-box">
                             <input type="password" required>
-                            <label>Senha</label>
+                            <label id="senha">Senha</label>
                         </div>
                         <div class="remember">
-                            <label><input type="checkbox"> Lembre de mim</label>
+                            <label  id="lembre"><input type="checkbox"> Lembre de mim</label>
                         </div>
                         <div>
                             
