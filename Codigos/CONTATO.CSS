@@ -38,6 +38,8 @@ body {
     display: block;
     margin: 0 auto; /* Centraliza a imagem horizontalmente */
     max-width: 200px;
+    position: relative;
+    margin-top: 40;    
   }
   
   .mensagem {
@@ -59,12 +61,12 @@ height: 100px; /* Ajuste conforme necessário para aumentar a altura */
   }
   .mensagem input {
     width: 100%; /* Ajuste conforme necessário */
-    padding: 10px; /* Ajuste conforme necessário para aumentar o preenchimento */
+    padding: 23%; /* Ajuste conforme necessário para aumentar o preenchimento */
     box-sizing: border-box;
     margin-bottom: 5px;
     height: 50px; /* Ajuste conforme necessário para aumentar a altura */
   }
-
+  
   /* Adicionado estilo para o botão */
   .mensagem button {
     width: 60%; /* Ajuste conforme necessário */
