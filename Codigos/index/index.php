@@ -15,3 +15,6 @@ include '../navbar/navbar.php';
 </body>
 
 </html>
+<?php
+include '../footer/footer.php';
+?>
