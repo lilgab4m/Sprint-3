@@ -193,6 +193,10 @@ body {
     transition: .5s;
 }
 
+.input-box input {
+    padding-right: 10px;
+}
+
 .input-box input:focus~label,
 .input-box input:valid~label {
     color: transparent;
