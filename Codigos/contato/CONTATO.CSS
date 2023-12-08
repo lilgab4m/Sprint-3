@@ -47,7 +47,10 @@ body {
    margin-left: 200px;
   }    
   img{  
-    max-width: 190px;
+    max-width: 190px;   
+  }
+  .logo{
+    margin-top: 50px;
   }
   .meu-botao {
     margin-top: -20px;
@@ -73,6 +76,12 @@ body {
       font-size: 40px;
      
     }
+    
+   .textarea{
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 2px #000000;
+   }
   
   
   
