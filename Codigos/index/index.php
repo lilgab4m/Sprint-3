@@ -11,11 +11,9 @@ include '../navbar/navbar.php';
     <link rel="stylesheet" href="index.css">
 </head>
 
-    <body>
-        <div class="">
-           
-        </div>
-    </body>
+<body>
+</body>
+
 </html>
 <?php
 include '../footer/footer.php';
