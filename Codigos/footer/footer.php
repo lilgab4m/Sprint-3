@@ -17,7 +17,7 @@
             <a href="https://www.instagram.com/_bubleb_/"><img src="../../img/insta.png" alt="Imagem 2"></a>
         </div>
         <div class="footer-links">
-            <p>&copy; 2020 Wise Up Online. Todos os direitos reservados.
+            <p>&copy; 2023 BableB. Todos os direitos reservados.
                 <a href="C:\xampp\htdocs\Sprint-3\Codigos\termos\PoliticaPR.html">Política de Privacidade</a>
                 <a href="C:\xampp\htdocs\Sprint-3\Codigos\termos\TermosDeUso">Termos de Uso</a>
                 <a href="ajuda.html">Ajuda</a>
@@ -26,7 +26,6 @@
     </footer>
     <style>
         footer {
-            position: absolute;
             bottom: 0;
             left: 0;
             right: 0;

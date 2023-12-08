@@ -1,3 +1,8 @@
+<?php
+include "../navbar/navbar.php"
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,25 +13,7 @@
     <link rel="stylesheet" href="C:\xampp\htdocs\Sprint-3\Codigos\footer\footer.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo-container">
-            <img src="C:\xampp\htdocs\Sprint-3\img\logo\1.jpg" alt="Logo">
-        </div>
-        <div class="logo-container1">
-            <img src="C:\xampp\htdocs\Sprint-3\img\BabelB-Branco 2.png" alt="Logo">
-        </div>
-
-        <ul class="nav-links">
-            <li><a href="#kids">Kids</a></li>
-            <li><a href="#fale-conosco">Fale Conosco</a></li>
-            <li><a href=C:\xampp\htdocs\Sprint-3\Codigos\termos\sobre.html>Sobre</a></li>
-            <li><a href="#agendamento">Agendamento</a></li>
-            <li class="login-container">
-                <a href="C:\xampp\htdocs\Sprint-3\Codigos\login\login.php">Loginㅤㅤㅤ</a>
-                <img src="C:\xampp\htdocs\Sprint-3\img\login.png">
-            </li>
-        </ul>
-    </nav>
+ 
 
 <style>
     body {
@@ -99,7 +86,6 @@
             As informações pessoais coletadas podem ser usadas para fornecer os serviços de ensino de inglês online, personalizar o conteúdo do curso, melhorar a experiência do usuário e entrar em contato sobre atualizações ou novidades relacionadas ao Bableb. Não compartilharemos suas informações pessoais com terceiros sem o seu consentimento, exceto quando exigido por lei.
         </p>
 
-        <!-- ... (Continue adicionando as seções conforme necessário) ... -->
 
         <h3>Contato</h3>
         <p>
@@ -109,21 +95,12 @@
         <p>
             Esta Política de Privacidade foi atualizada em 2023.
         </p>
-    </div>
+    </div> 
+    <br><br><br><br><br>
 
-    <footer>
-        
-        <div class="footer-images">
-            <a href="link_da_primeira_imagem.html"><img src="C:\xampp\htdocs\Sprint-3\img\zap.png" alt="Imagem 1"></a>
-            <a href="https://www.instagram.com/_bubleb_/"><img src="C:\xampp\htdocs\Sprint-3\img\insta.png" alt="Imagem 2"></a>
-        </div>
-        <div class="footer-links">
-            <p>&copy; 2020 Wise Up Online. Todos os direitos reservados.
-            <a href="C:\xampp\htdocs\Sprint-3\Codigos\termos\PoliticaPR.html">Política de Privacidade</a>
-            <a href="C:\xampp\htdocs\Sprint-3\Codigos\termos\TermosDeUso.html">Termos de Uso</a>
-            <a href="ajuda.html">Ajuda</a>
-        </p>
-        </div>
-    </footer>
 </body>
+<?php
+include '../footer/footer.php'
+
+?>
 </html>
