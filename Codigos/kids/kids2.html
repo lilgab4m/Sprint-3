@@ -1,7 +1,3 @@
-
-
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -9,43 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="navbar.css">
-
-
-
-
-
-
-
-
+    <link rel="stylesheet" href="C:\xampp\htdocs\Sprint-3\Codigos\footer\footer.php">
 
     <style>
-        /* Estilos para o card */
-        .card {
-            width: 600px;
-            background-color: rgb(255, 208, 1);
-            padding: 10x;
-            border-radius: 8px;
-            box-shadow: 0 4px 0px rgba(0, 0, 0, 0.1);
+        /* Estilo para o contêiner da imagem */
+        .image-container {
+            position: relative;
+            width: 70%;
         }
 
-        .card img {
+        /* Estilo para a imagem */
+        .background-image {
             width: 100%;
             height: auto;
-           border: 0px solid #333;
-            border-radius: 8px 8px 0  0;
+            border-radius: 15px; /* Arredonda as bordas do retângulo */
         }
+
+        /* Estilo para o retângulo amarelo */
+        .yellow-rectangle {
+            position: absolute;
+            bottom: 50px; /* Posicionamento na parte inferior */
+            left: 50px; /* Ajuste a posição horizontal do retângulo */
+            width: 720px;
+            height: 180px;
+            top: 90%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgb(255, 208, 0);
+            z-index: 1; /* Garante que fique acima da imagem */
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center; /* Centraliza o texto */
+            border-radius: 15px; /* Arredonda as bordas do retângulo */
+            font-family: 'Encode Sans Condensed', sans-serif; /* Altera a fonte do texto */
+        }
+
+        /* Estilo para o texto dentro do retângulo */
+        .text-inside {
+            color: black;
+            text-align: center;
+
+
+        }
+
+    }
+
+/* Estilo para o texto dentro do retângulo */
+.text-inside {
+    color: black;
+}
+
     </style>
 
-
-
-
-
-
-
-
-
-
-
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -125,55 +137,43 @@
 
         .login-container img {
             width: 20px;
-         
+            /* ajuste conforme necessário */
             height: auto;
             margin-left: 5px;
         }
     </style>
+
+
 <br>
+<br>
+<center>
+<div class="image-container">
+    <img class="background-image" src="C:\xampp\htdocs\Sprint-3\img\crianças.png" alt="Imagem de fundo">
 
 
+        <div class="yellow-rectangle">
+            <p class="text-inside">Os mascotes nas escolas de inglês têm um papel significativo no desenvolvimento das crianças. Eles criam um ambiente acolhedor e amigável, ajudando os alunos a se sentirem mais confortáveis e confiantes durante as aulas. Além disso, os mascotes podem ser usados como uma ferramenta educacional, estimulando o interesse pelo idioma e facilitando a compreensão de conceitos por meio de atividades interativas e jogos.</p>
+        </div>
+    </div>
+</center>
 
 <center>
 <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="C:\xampp\htdocs\Sprint-3\img\kids.png" class="d-block w-100" alt="...">
+        <img src="C:\xampp\htdocs\Sprint-3\img\bablekids2.png" width="1200" class="d-block w-200" alt="...">
       </div>
+      
+    </div>
     
-    
-  </div>
+</div>
 </center>
 
 
 
 
-<center>
+</body>
 
-
-<div class="card">
-    <img src="C:\xampp\htdocs\Sprint-3\img\kids2.png" alt="Imagem">
-    <br>
-   
-    <p>Além dos livros da BableB, também existem materiais de inglês infantil como jogos educativos, flashcards com imagens e palavras em inglês, músicas e vídeos com letras e atividades interativas, que tornam o aprendizado do idioma mais divertido e envolvente para as crianças. Esses materiais são especialmente projetados para atender às necessidades e interesses das crianças em diferentes faixas etárias, estimulando a curiosidade e o interesse pelo inglês desde cedo. 
-        <br>
-    </p>
-</div>
-
-</center>
-
-
-
-
-
-
-
-
-
-
-<div class="content">
-    <!-- Seu conteúdo principal aqui -->
-</div>
 <footer>
 
     <div class="footer-images">
@@ -188,9 +188,10 @@
         </p>
     </div>
 </footer>
+
 <style>
     footer {
-        position: absolute;
+      
         bottom: 0;
         left: 0;
         right: 0;
@@ -213,14 +214,5 @@
         margin: 0 10px;
     }
 </style>
-</body>
 
 </html>
-
-
-
-
-
-
-
-
