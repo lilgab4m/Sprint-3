@@ -1,3 +1,8 @@
+<?php
+include '../navbar/navbar.php'
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -61,25 +66,7 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="logo-container">
-            <img src="../../img/logo/1.jpg" alt="Logo">
-        </div>
-        <div class="logo-container1">
-            <img src="../../img/BabelB-Branco 2.png" alt="Logo">
-        </div>
-
-        <ul class="nav-links">
-            <li><a href="#kids">Kids</a></li>
-            <li><a href="#fale-conosco">Fale Conosco</a></li>
-            <li><a href=C:\xampp\htdocs\Sprint-3\Codigos\termos\sobre.html>Sobre</a></li>
-            <li><a href="#agendamento">Agendamento</a></li>
-            <li class="login-container">
-                <a href="../login/login.php">Login</a>
-                <img src="C:\xampp\htdocs\Sprint-3\img\login.png">
-            </li>
-        </ul>
-    </nav>
+ 
     <style>
         body {
             margin: 0;
@@ -88,16 +75,7 @@
 
         }
 
-        .navbar {
-
-            padding: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: rgb(0, 0, 0);
-            background: linear-gradient(140deg, rgba(0, 0, 0, 1) 0%, rgba(54, 37, 9, 1) 30%, rgba(248, 223, 105, 1) 30%, rgba(252, 224, 87, 1) 100%);
-        }
-
+      
         .logo-container img {
             width: 50px;
             /* ajuste conforme necessário */
@@ -148,7 +126,7 @@
 <br>
 <center>
 <div class="image-container">
-    <img class="background-image" src="C:\xampp\htdocs\Sprint-3\img\crianças.png" alt="Imagem de fundo">
+    <img class="background-image" src="img\crianças.png" alt="Imagem de fundo">
 
 
         <div class="yellow-rectangle">
@@ -161,7 +139,7 @@
 <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="C:\xampp\htdocs\Sprint-3\img\bablekids2.png" width="1200" class="d-block w-200" alt="...">
+        <img src="img/bablekids.png" width="1200" class="d-block w-200" alt="...">
       </div>
       
     </div>
@@ -173,46 +151,8 @@
 
 
 </body>
-
-<footer>
-
-    <div class="footer-images">
-        <a href="link_da_primeira_imagem.html"><img src="../../img/zap.png" alt="Imagem 1"></a>
-        <a href="https://www.instagram.com/_bubleb_/"><img src="../../img/insta.png" alt="Imagem 2"></a>
-    </div>
-    <div class="footer-links">
-        <p>&copy; 2020 Wise Up Online. Todos os direitos reservados.
-            <a href="C:\xampp\htdocs\Sprint-3\Codigos\termos\PoliticaPR.html">Política de Privacidade</a>
-            <a href="C:\xampp\htdocs\Sprint-3\Codigos\termos\TermosDeUso">Termos de Uso</a>
-            <a href="ajuda.html">Ajuda</a>
-        </p>
-    </div>
-</footer>
-
-<style>
-    footer {
-      
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: #d3d3d3;
-        color: w#000000;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .footer-links a {
-        color: #000000;
-        text-decoration: none;
-        margin: 0 10px;
-    }
-
-    .footer-images img {
-        width: 50px;
-        /* Ajuste conforme necessário */
-        height: auto;
-        margin: 0 10px;
-    }
-</style>
+<?php
+include '../footer/footer.php'
+?>
 
 </html>
