@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Unlock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;500;700&display=swap');
+
+.banner {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner p {
+    width: 800px;
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Unlock;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner img {
+    width: 1500px;
+}
+
+.banner b {
+    color: #EFBE11;;
+}
+
+.containerFloats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    margin-top: -234px;
+}
+
+.containerFloats > div {
+    height: 700px;
+    width: 400px;
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.containerFloats > div > div:nth-child(2) {
+    padding: 20px;
+}
+
+.containerFloats img {
+    width: 400px;
+    border-radius: 18px 18px 0 0;
+}
+
+.containerFloats h1 {
+    color: #EFBE11;
+    font-family: Dosis;
+    font-weight: 700;
+}
+
+.containerFloats p {
+    font-size: 30px;
+    font-family: Dosis;
+    font-weight: 500;
+}
+
+.brinde {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(239, 190, 17, 0.53);
+}
+
+.brinde img {
+    align-items: center;
+    padding: 40px;
+    width: 70%;
+}
