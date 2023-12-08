@@ -64,11 +64,41 @@ include '../navbar/navbar.php';
                     MATRICULE-SE AGORA E GANHE UM BRINDE!
                 </h1>
                 <a href="">
-                    matricule-se
+                    Matricule-se
                 </a>
             </div>
-            <div>
                 <img src="img/Brinde.png" alt="">
+        </div>
+        <div class="containerKids">
+            <div>
+                <h1>
+                    INGLÊS PARA CRIANÇAS 
+                </h1>
+                <div>                
+                    <a href="">
+                        Veja mais!
+                    </a>
+                    <img src="img/bee.png" alt="">
+                </div>
+            </div>
+            <img src="img/kids.png" alt="">
+        </div>
+        <div class="flex">
+            <div>
+                <img src="img/flex.png" alt="">
+                <div>
+                    <p>
+                        Flexibilidade de estudar online e ter aulas presenciais, oportunidade de praticar o idioma em diferentes contextos, acesso a recursos digitais interativos e suporte  dos professores.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <form action="">
+                    <input type="text" placeholder="Nome">
+                    <input type="text" placeholder="Telefone">
+                    <input type="text" placeholder="E-mail">
+                    <button type="submit">Comece agora!</button>
+                </form>
             </div>
         </div>
     </body>

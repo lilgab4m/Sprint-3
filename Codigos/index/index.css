@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Unlock&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@700&family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rambla:wght@700&display=swap');
+
 
 .banner {
     margin-top: 130px;
@@ -68,14 +72,107 @@
 }
 
 .brinde {
+    padding: 40px 0 40px 0;
     margin-top: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background: rgba(239, 190, 17, 0.53);
+    align-items: center;
+}
+
+.brinde > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brinde > div h1 {
+    width: 500px;
+    text-align: center;
+    font-family: Koulen;
+    font-size: 80px;
+}
+
+.brinde > div a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 20px;
+    border-radius: 50px;
+    border: #FFF solid 2px;
+    text-align: center;
+    font-family: Encode Sans;
+    font-size: 40px;
 }
 
 .brinde img {
     align-items: center;
-    padding: 40px;
-    width: 70%;
+    width: 40%;
+}
+
+.containerKids {
+    padding: 100px 0 100px 0;
+    display: flex;    
+    justify-content: space-around;
+}
+
+.containerKids > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerKids > div h1 {
+    font-family: Rambla;
+    font-size: 85px;
+}
+
+.containerKids >div > div {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+}
+
+.containerKids > div > div a {
+    text-decoration: none;
+    color: #EFBE11;
+    padding: 20px;
+    border-radius: 50px;
+    border: #EFBE11 solid 2px;
+    text-align: center;
+    font-family: Encode Sans;
+    font-size: 40px;
+    height: 50px;
+}
+
+.containerKids > div > div img {
+    transform: rotate(45deg);
+    width: 120px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex > div:first-child img {
+    border-radius: 100%;
+}
+
+.flex > div:first-child > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #FFF;
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+}
+
+.flex > div:first-child p {
+    font-family: Encode Sans;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    width: 400px;
 }
