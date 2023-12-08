@@ -1,4 +1,7 @@
+<?php
+include '../navbar/navbar.php'
 
+?>
 
 
 <!DOCTYPE html>
@@ -129,25 +132,7 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="logo-container">
-            <img src="../../img/logo/1.jpg" alt="Logo">
-        </div>
-        <div class="logo-container1">
-            <img src="../../img/BabelB-Branco 2.png" alt="Logo">
-        </div>
-
-        <ul class="nav-links">
-            <li><a href="#kids">Kids</a></li>
-            <li><a href="#fale-conosco">Fale Conosco</a></li>
-            <li><a href=C:\xampp\htdocs\Sprint-3\Codigos\termos\sobre.html>Sobre</a></li>
-            <li><a href="#agendamento">Agendamento</a></li>
-            <li class="login-container">
-                <a href="../login/login.php">Login</a>
-                <img src="C:\xampp\htdocs\Sprint-3\img\login.png">
-            </li>
-        </ul>
-    </nav>
+ 
     <style>
         body {
             margin: 0;
@@ -227,7 +212,7 @@
 <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="C:\xampp\htdocs\Sprint-3\img\kids.png" class="d-block w-100" alt="...">
+        <img src="img/kids.png" class="d-block w-100" alt="...">
       </div>
 
       <div id="container">
@@ -253,7 +238,7 @@
 
 
 <div class="card">
-    <img src="C:\xampp\htdocs\Sprint-3\img\kids2.png" alt="Imagem">
+    <img src="img\kids2.png" alt="Imagem">
     <br>
    
     <p>Além dos livros da BableB, também existem materiais de inglês infantil como jogos educativos, flashcards com imagens e palavras em inglês, músicas e vídeos com letras e atividades interativas, que tornam o aprendizado do idioma mais divertido e envolvente para as crianças. Esses materiais são especialmente projetados para atender às necessidades e interesses das crianças em diferentes faixas etárias, estimulando a curiosidade e o interesse pelo inglês desde cedo. 
@@ -279,31 +264,8 @@
 
 
 
-<style>
-    footer {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: #d3d3d3;
-        color: w#000000;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .footer-links a {
-        color: #000000;
-        text-decoration: none;
-        margin: 0 10px;
-    }
-
-    .footer-images img {
-        width: 50px;
-        /* Ajuste conforme necessário */
-        height: auto;
-        margin: 0 10px;
-    }
-</style>
 </body>
-
+<?php
+include '../footer/footer.php'
+?>
 </html>
