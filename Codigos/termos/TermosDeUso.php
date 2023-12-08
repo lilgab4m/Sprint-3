@@ -1,3 +1,7 @@
+<?php
+
+include'../navbar/navbar.php'
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -114,23 +118,15 @@ A escola não é responsável por quaisquer danos diretos, indiretos, incidentai
 A escola reserva-se o direito de modificar ou encerrar serviços a qualquer momento, com ou sem aviso prévio
 </p>
 </div>
-</div>[]
+</div>
 
-<footer>
-        
-    <div class="footer-images">
-        <a href="link_da_primeira_imagem.html"><img src="C:\xampp\htdocs\Sprint-3\img\zap.png" alt="Imagem 1"></a>
-        <a href="https://www.instagram.com/_bubleb_/"><img src="C:\xampp\htdocs\Sprint-3\img\insta.png" alt="Imagem 2"></a>
-    </div>
-    <div class="footer-links">
-        <p>&copy; 2020 Wise Up Online. Todos os direitos reservados.
-        <a href="C:\xampp\htdocs\Sprint-3\Codigos\termos\PoliticaPR.html">Política de Privacidade</a>
-        <a href="C:\xampp\htdocs\Sprint-3\Codigos\termos\TermosDeUso.html">Termos de Uso</a>
-        <a href="ajuda.html">Ajuda</a>
-    </p>
-    </div>
-</footer>
+
+
 </body>
+<?php
+include '../footer/footer.php'
+
+?>
 </html>
 
 

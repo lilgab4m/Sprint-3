@@ -22,7 +22,7 @@
             <li><a href="#agendamento">Agendamento</a></li>
             <li class="login-container">
                 <a href="../login/login.php">Login</a>
-                <img src="C:\xampp\htdocs\Sprint-3\img\login.png">
+                <img src="login.png">
             </li>
         </ul>
     </nav>
