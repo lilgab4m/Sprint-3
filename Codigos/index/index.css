@@ -152,6 +152,9 @@
 
 .flex {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(217, 217, 217, 0.58);
 }
 
 .flex > div:first-child img {
@@ -159,6 +162,8 @@
 }
 
 .flex > div:first-child > div {
+    top: -200px;
+    left: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,6 +172,7 @@
     border-radius: 100%;
     width: 500px;
     height: 500px;
+    transform: translateX(250px) translateY(-220px);
 }
 
 .flex > div:first-child p {
@@ -175,4 +181,55 @@
     font-size: 30px;
     text-align: center;
     width: 400px;
+}
+
+.flex > div:last-child form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 61px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 14.8px 2px rgba(0, 0, 0, 0.25);
+    margin: 39px 0;
+    background-color: #FFF;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 24px;
+    margin-left: 13px;
+    font-family: Dosis;
+    color: #777;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input {
+    padding-right: 10px;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    color: transparent;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    padding-left: 13px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 0 35px 0 5px;
 }

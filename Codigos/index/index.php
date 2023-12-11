@@ -94,9 +94,18 @@ include '../navbar/navbar.php';
             </div>
             <div>
                 <form action="">
-                    <input type="text" placeholder="Nome">
-                    <input type="text" placeholder="Telefone">
-                    <input type="text" placeholder="E-mail">
+                    <div class="input-box">                    
+                        <input type="text" placeholder="Nome">
+                        <label id="nome">Nome</label>
+                    </div>
+                    <div class="input-box">                    
+                        <input type="text" placeholder="Telefone">
+                        <label id="elefone">Telefone</label>
+                    </div>
+                    <div class="input-box">                    
+                        <input type="text" placeholder="E-mail">
+                        <label id="e-mail">E-mail</label>
+                    </div>
                     <button type="submit">Comece agora!</button>
                 </form>
             </div>
