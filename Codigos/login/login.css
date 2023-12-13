@@ -20,6 +20,10 @@ body {
     overflow: hidden;
 }
 
+body.dark {
+    background-image: url(img/Dark.png);
+}
+
 .lang {
     background: white;
     height: 60px;

@@ -7,9 +7,14 @@
     <title>Logar</title>
     <link rel='stylesheet' type='text/css' media='screen' href='login.css'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
-<body>
+<body class="body">
+    <div>
+    <a href="#" class="dark_mode"><span class="material-symbols-outlined">dark_mode</span></a>
+    <!-- <span class="material-symbols-outlined">light_mode</span> -->
+    </div>
     <div class="text">
         <p class="title login" id="titulo-login">Bem-vindo novamente</p>
         <p class="title register" id="titulo-registro">Comece agora</p>

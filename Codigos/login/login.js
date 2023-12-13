@@ -1,3 +1,9 @@
+const body = document.querySelector('.body')
+const dark = document.querySelector('.dark_mode');
+dark.addEventListener('click', ()=> {
+    document.querySelector('.body').style.cssText = "background-image: url(img/Dark.png);";
+})
+
 const wrapper = document.querySelector('.wrapper');
 const text = document.querySelector('.text');
 const loginLink = document.querySelector('.login-link');
@@ -7,10 +13,6 @@ const back = document.querySelector('.back-link');
 const langLink = document.querySelector('.lang');
 var moment = 1;
 var lang = 1;
-
-// Mudando o form para o cadastre-se
-
-// Mudando o form para o login
 
 // Mudando o form para esqueceu a senha
 forgot.addEventListener('click', ()=> {
