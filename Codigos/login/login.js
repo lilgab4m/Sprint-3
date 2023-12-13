@@ -1,9 +1,3 @@
-const body = document.querySelector('.body')
-const dark = document.querySelector('.dark_mode');
-dark.addEventListener('click', ()=> {
-    document.querySelector('.body').style.cssText = "background-image: url(img/Dark.png);";
-})
-
 const wrapper = document.querySelector('.wrapper');
 const text = document.querySelector('.text');
 const loginLink = document.querySelector('.login-link');

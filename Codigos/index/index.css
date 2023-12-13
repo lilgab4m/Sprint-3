@@ -157,13 +157,16 @@
     background: rgba(217, 217, 217, 0.58);
 }
 
+.flex > div:first-child {
+    height: 1000px;
+}
+
 .flex > div:first-child img {
     border-radius: 100%;
+    margin-top: 140px;
 }
 
 .flex > div:first-child > div {
-    top: -200px;
-    left: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -186,14 +189,18 @@
 .flex > div:last-child form {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: #EFBE11;
+    width: 400px;
+    padding: 40px 0 40px 0;
+    border-radius: 38px;
 }
 
 .input-box {
     position: relative;
-    width: 100%;
+    width: 300px;
     height: 61px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 14.8px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
     margin: 39px 0;
     background-color: #FFF;
 }
@@ -232,4 +239,100 @@
     color: rgb(0, 0, 0);
     font-weight: 600;
     padding: 0 35px 0 5px;
+}
+
+.form button {
+    width: 80%;
+    height: 61px;
+    color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14.8px 2px rgba(0, 0, 0, 0.25);
+    background-color: black;
+}
+
+.metodologia {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 31px;
+    background: rgba(239, 190, 17, 0.33);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 50px;
+    width: 70%;
+}
+
+.metodologia h1 {
+    color: #000;
+    font-family: Koulen;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}   
+
+.metodologia p {
+    font-family: Encode Sans;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.containerFloats2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+
+}
+
+.containerFloats2 > div {
+    height: 700px;
+    width: 400px;
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.containerFloats2 > div > div:nth-child(2) {
+    padding: 20px;
+}
+
+.containerFloats2 img {
+    width: 400px;
+    border-radius: 18px 18px 0 0;
+}
+
+.containerFloats2 h1 {
+    color: black;
+    font-family: Dosis;
+    font-weight: 700;
+}
+
+.containerFloats2 p {
+    font-size: 30px;
+    font-family: Dosis;
+    font-weight: 500;
+}
+
+.bandeiras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.bandeiras h1 {
+    font-family: Koulen;
+    font-size: 50px;
+}
+
+.bandeiras > div:nth-child(2) {
+    display: flex;
+    gap: 100px;
+}
+
+.bandeiras img {
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }

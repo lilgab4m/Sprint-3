@@ -92,22 +92,71 @@ include '../navbar/navbar.php';
                     </p>
                 </div>
             </div>
-            <div>
+            <div class="form">
                 <form action="">
-                    <div class="input-box">                    
-                        <input type="text" placeholder="Nome">
-                        <label id="nome">Nome</label>
-                    </div>
-                    <div class="input-box">                    
-                        <input type="text" placeholder="Telefone">
-                        <label id="elefone">Telefone</label>
-                    </div>
-                    <div class="input-box">                    
-                        <input type="text" placeholder="E-mail">
-                        <label id="e-mail">E-mail</label>
+                    <div>
+                        <div class="input-box">                    
+                            <input type="text" placeholder="Nome">
+                            <label id="nome">Nome</label>
+                        </div>
+                        <div class="input-box">                    
+                            <input type="text" placeholder="Telefone">
+                            <label id="elefone">Telefone</label>
+                        </div>
+                        <div class="input-box">                    
+                            <input type="text" placeholder="E-mail">
+                            <label id="e-mail">E-mail</label>
+                        </div>
                     </div>
                     <button type="submit">Comece agora!</button>
                 </form>
+            </div>
+        </div>
+        <div class="metodologia">
+            <h1>Nossa metodologia </h1>
+            <p>
+                As aulas na BableB são projetadas de forma interativa, com recursos como vídeos, áudios, exercícios interativos e quizzes para envolver os alunos no processo de aprendizado.
+            </p>
+            <p>            
+                A prática de conversação é incentivada por meio de atividades como exercícios em pares, discussões em grupo e sessões de conversação com professores ou outros alunos.
+            </p>
+        </div>
+        <div class="containerFloats2">
+            <div>
+                <div>
+                    <img src="img/float4.png" alt="">
+                </div>
+                <div>
+                    <h1>Atendimento 24 horas</h1>
+                    <p>
+                        Na BableB oferecemos aulas online ao vivo disponíveis a cada meia hora, todos os dias da semana, a qualquer hora do dia ou da noite. 
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="img/float5.png" alt="">
+                </div>
+                <div>
+                    <h1>Professores nativos</h1>
+                    <p>
+                        Os professores nativos podem
+                        trazem benefícios como uma pronúncia mais autêntica, exposição à cultura e expressões idiomáticas locais, e uma maior compreensão das 
+                        língua.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="bandeiras">
+            <div>
+                <h1>
+                    Torne-se fluente em:
+                </h1>
+            </div>
+            <div>
+                <img src="img/BandEsp.png" alt="">
+                <img src="img/BandUsa.png" alt="">
+                <img src="img/BandJap.png" alt="">
             </div>
         </div>
     </body>
