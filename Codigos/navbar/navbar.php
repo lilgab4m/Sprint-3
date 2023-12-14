@@ -22,7 +22,9 @@
             <li><a href="#agendamento">Agendamento</a></li>
             <li class="login-container">
                 <a href="../login/login.php">Login</a>
-                <img src="login.png">
+                <a href="../login/login.php">
+                    <img src="login.png" alt="">
+                </a>
             </li>
         </ul>
     </nav>
