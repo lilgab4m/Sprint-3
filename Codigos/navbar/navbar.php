@@ -26,9 +26,11 @@
 
 
                 <a href="../login/login.php">Login</a>
-                <img src="img/login.png"></a>
+                <a href="../login/login.php">
+                    <img src="login.png" alt="">
+                </a>
 
-
+            
             </li>
         </ul>
     </nav>
