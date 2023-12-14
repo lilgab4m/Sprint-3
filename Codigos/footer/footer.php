@@ -18,9 +18,9 @@
         </div>
         <div class="footer-links">
             <p>&copy; 2023 BableB. Todos os direitos reservados.
-                <a href="C:\xampp\htdocs\Sprint-3\Codigos\termos\PoliticaPR.html">Política de Privacidade</a>
-                <a href="C:\xampp\htdocs\Sprint-3\Codigos\termos\TermosDeUso">Termos de Uso</a>
-                <a href="ajuda.html">Ajuda</a>
+                <a href="../termos\PoliticaPR.php">Política de Privacidade</a>
+                <a href="..\termos\TermosDeUso.php">Termos de Uso</a>
+                <a href="../contato/contato.php">Ajuda</a>
             </p>
         </div>
     </footer>

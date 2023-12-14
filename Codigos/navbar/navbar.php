@@ -7,22 +7,28 @@
 </head>
 
 <body>
+<a href="../index/index.php">
     <nav class="navbar">
         <div class="logo-container">
-            <img src="../../img/logo/1.jpg" alt="Logo">
+            <img src="../../img/logo/1.jpg" alt="Logo">      </a>
+            
         </div>
         <div class="logo-container1">
             <img src="../../img/BabelB-Branco 2.png" alt="Logo">
         </div>
 
         <ul class="nav-links">
-            <li><a href="#kids">Kids</a></li>
-            <li><a href="#fale-conosco">Fale Conosco</a></li>
-            <li><a href=C:\xampp\htdocs\Sprint-3\Codigos\termos\sobre.html>Sobre</a></li>
+            <li><a href="../kids/kids.php">Kids</a></li>
+            <li><a href="../contato/contato.php">Fale Conosco</a></li>
+            <li><a href="../termos/sobre.php">Sobre</a></li>
             <li><a href="#agendamento">Agendamento</a></li>
             <li class="login-container">
+
+
                 <a href="../login/login.php">Login</a>
-                <img src="login.png">
+                <img src="img/login.png"></a>
+
+
             </li>
         </ul>
     </nav>

@@ -67,7 +67,7 @@ include 'C:\xampp\htdocs\Sprint-3\Codigos\navbar\navbar.php';
 
     /* Adicione mais estilos conforme necessário */
 </style>
-
+<br><br><br><br><br><br>
     <div class="privacy-policy">
         <div class="inner-rectangle">
             <h2>Política de Privacidade</h2>

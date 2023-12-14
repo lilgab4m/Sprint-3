@@ -40,7 +40,8 @@ include '../navbar/navbar.php'
       <input type="nivel" name="Nivel" rows="Nivel" placeholder="Nivel" required> 
       <input type="text" id="nome" name="nome" placeholder="Telefone" required>
 
-      <h4>COMENTARIO</h4>
+    
+      <input type="Contato" id="nome" name="nome" placeholder="comentario " rows="Contato" required class="textarea>
       <textarea id="Contato" name="Contato" rows="Contato" required class="textarea"></textarea><br>
       <button>Enviar</button>
     </form>
