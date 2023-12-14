@@ -139,8 +139,7 @@ include '../navbar/navbar.php'
 <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/bablekids.png" width="1200" class="d-block w-200" alt="...">
-      </div>
+    <a href="kids.php" >   <img src="img/bablekids.png" width="1200" class="d-block w-200" alt="..."></div></a>
       
     </div>
     

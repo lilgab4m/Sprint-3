@@ -217,16 +217,18 @@ include '../navbar/navbar.php'
 
       <div id="container">
         <div id="main-rectangle"><BR><BR>
-            <div id="title">Seja Bem-Vindo!</div><br><br><br><br> <br>
-            <button id="button">Matricule-se</button>
+ <div id="title">Seja Bem-Vindo!</div><br><br><br><br> <br>
+ <a href="kids2.php" >    <button id="button">Matricule-se</button></a>
         </div>
         <div id="small-rectangle">
             <div id="small-rectangle-text"><br><BR><BR>Existem vários benfícios de fazer inglês na infância, isso pode abrir portas para oportunidades educacionais, culturais e profissionais no futuro. Na BableB você pode aprender tudo isso e maito mais! </div>
                 
         </div>
+        
     </div>
     <div class="belinha">
-    <img src="img/bablekids-removebg-preview.png" alt="">
+    <a href="kids2.php" > <img src="img/bablekids-removebg-preview.png" alt=""></a>
+
     </div>
   </div>
 </center>

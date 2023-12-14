@@ -68,7 +68,7 @@ include'../navbar/navbar.php'
 
     /* Adicione mais estilos conforme necessário */
 </style>
-
+</div><br><br><br><br>   </div><br><br><br><br>
     <div class="privacy-policy">
         <div class="inner-rectangle">
             <h2>Termos de Uso</h2>
