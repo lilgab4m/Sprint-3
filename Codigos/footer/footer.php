@@ -7,11 +7,7 @@
 </head>
 
 <body>
-    <div class="content">
-        <!-- Seu conteúdo principal aqui -->
-    </div>
     <footer>
-
         <div class="footer-images">
             <a href="link_da_primeira_imagem.html"><img src="../../img/zap.png" alt="Imagem 1"></a>
             <a href="https://www.instagram.com/_bubleb_/"><img src="../../img/insta.png" alt="Imagem 2"></a>
@@ -25,10 +21,12 @@
         </div>
     </footer>
     <style>
+        
         footer {
             bottom: 0;
             left: 0;
             right: 0;
+            width: 100%;
             background-color: #d3d3d3;
             color: w#000000;
             text-align: center;
